@@ -1,0 +1,1 @@
+../../../../Appodeal/APDTwitterMoPubAdapter.embeddedframework/MoPubSDK.framework/Headers/MPNativeAdSourceDelegate.h

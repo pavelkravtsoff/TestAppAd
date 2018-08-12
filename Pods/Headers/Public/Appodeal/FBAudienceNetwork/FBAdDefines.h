@@ -1,0 +1,1 @@
+../../../../Appodeal/APDFacebookAudienceAdapter.embeddedframework/FBAudienceNetwork.framework/Headers/FBAdDefines.h

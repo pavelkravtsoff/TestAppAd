@@ -1,0 +1,1 @@
+../../../../Appodeal/APDAppLovinAdapter.embeddedframework/AppLovinSDK.framework/Headers/ALAdSize.h

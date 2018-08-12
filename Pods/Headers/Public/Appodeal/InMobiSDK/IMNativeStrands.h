@@ -1,0 +1,1 @@
+../../../../Appodeal/APDInMobiAdapter.embeddedframework/InMobiSDK.framework/Headers/IMNativeStrands.h

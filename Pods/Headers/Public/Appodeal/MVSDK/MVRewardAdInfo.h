@@ -1,0 +1,1 @@
+../../../../Appodeal/APDMobvistaAdapter.embeddedframework/MVSDK.framework/Headers/MVRewardAdInfo.h

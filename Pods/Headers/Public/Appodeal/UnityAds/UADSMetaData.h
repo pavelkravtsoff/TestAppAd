@@ -1,0 +1,1 @@
+../../../../Appodeal/APDUnityAdapter.embeddedframework/UnityAds.framework/Headers/UADSMetaData.h

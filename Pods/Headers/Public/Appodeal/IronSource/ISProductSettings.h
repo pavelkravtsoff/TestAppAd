@@ -1,0 +1,1 @@
+../../../../Appodeal/APDIronSourceAdapter.embeddedframework/IronSource.framework/Headers/ISProductSettings.h

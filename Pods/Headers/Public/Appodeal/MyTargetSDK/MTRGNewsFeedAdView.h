@@ -1,0 +1,1 @@
+../../../../Appodeal/APDMyTargetAdapter.embeddedframework/MyTargetSDK.framework/Headers/MTRGNewsFeedAdView.h

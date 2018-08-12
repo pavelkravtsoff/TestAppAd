@@ -1,0 +1,1 @@
+../../../../Appodeal/APDAdColonyAdapter.embeddedframework/AdColony.framework/Headers/AdColonyInterstitial.h

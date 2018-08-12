@@ -1,0 +1,1 @@
+../../../../Appodeal/APDTapjoyAdapter.embeddedframework/Tapjoy.framework/Headers/TapjoyConnectConstants.h

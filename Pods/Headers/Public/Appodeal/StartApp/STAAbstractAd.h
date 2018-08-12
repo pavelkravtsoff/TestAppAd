@@ -1,0 +1,1 @@
+../../../../Appodeal/APDStartAppAdapter.embeddedframework/StartApp.framework/Headers/STAAbstractAd.h

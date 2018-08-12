@@ -1,0 +1,1 @@
+../../../../Appodeal/APDAmazonAdsAdapter.embeddedframework/AmazonAd.framework/Headers/AmazonAdOptions.h

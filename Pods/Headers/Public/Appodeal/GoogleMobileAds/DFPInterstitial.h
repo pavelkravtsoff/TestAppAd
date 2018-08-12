@@ -1,0 +1,1 @@
+../../../../Appodeal/APDGoogleAdMobAdapter.embeddedframework/GoogleMobileAds.framework/Headers/DFPInterstitial.h

@@ -1,0 +1,1 @@
+../../../../Appodeal/APDYandexAdapter.embeddedframework/YandexMobileAds.framework/Headers/YMANativeAdImage.h

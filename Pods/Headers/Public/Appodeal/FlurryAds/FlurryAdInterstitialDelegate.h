@@ -1,0 +1,1 @@
+../../../../Appodeal/APDFlurryAdapter.embeddedframework/FlurryAds.framework/Headers/FlurryAdInterstitialDelegate.h

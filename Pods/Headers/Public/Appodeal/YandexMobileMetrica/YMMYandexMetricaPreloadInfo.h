@@ -1,0 +1,1 @@
+../../../../Appodeal/APDYandexAdapter.embeddedframework/YandexMobileMetrica.framework/Headers/YMMYandexMetricaPreloadInfo.h

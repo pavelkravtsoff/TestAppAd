@@ -1,0 +1,1 @@
+../../../../Appodeal/Appodeal.framework/Headers/APDUserInfo.h
