@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35753012211F18B00061C031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753011211F18B00061C031 /* AppDelegate.swift */; };
-		35753014211F18B00061C031 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753013211F18B00061C031 /* FirstViewController.swift */; };
-		35753016211F18B00061C031 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753015211F18B00061C031 /* SecondViewController.swift */; };
-		35753019211F18B00061C031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35753017211F18B00061C031 /* Main.storyboard */; };
+		3520B9F42120ACF000BC21B2 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520B9F22120ACEF00BC21B2 /* CountryTableViewCell.swift */; };
+		3520B9F52120ACF000BC21B2 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3520B9F32120ACF000BC21B2 /* CountryTableViewCell.xib */; };
+		3520B9FB2120CE8800BC21B2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520B9FA2120CE8700BC21B2 /* RoundButton.swift */; };
+		355DB4B1211F9C4400E845AD /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 355DB4AF211F9C4200E845AD /* Countries.plist */; };
+		355DB4B2211F9C4400E845AD /* CountryChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DB4B0211F9C4300E845AD /* CountryChoose.swift */; };
 		3575301B211F18B10061C031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3575301A211F18B10061C031 /* Assets.xcassets */; };
 		3575301E211F18B10061C031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3575301C211F18B10061C031 /* LaunchScreen.storyboard */; };
+		35753029211F18F50061C031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753025211F18F40061C031 /* AppDelegate.swift */; };
+		3575302A211F18F50061C031 /* NativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753026211F18F50061C031 /* NativeAdViewController.swift */; };
+		3575302B211F18F50061C031 /* RewardedVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753027211F18F50061C031 /* RewardedVideoViewController.swift */; };
+		3575302C211F18F50061C031 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35753028211F18F50061C031 /* BannerViewController.swift */; };
+		3575302E211F19000061C031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3575302D211F19000061C031 /* Main.storyboard */; };
+		357BB95D211FA0A800E49C15 /* NativeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357BB95B211FA0A800E49C15 /* NativeAdTableViewCell.swift */; };
+		357BB95E211FA0A800E49C15 /* NativeAdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357BB95C211FA0A800E49C15 /* NativeAdTableViewCell.xib */; };
+		497B012A45B7865CD55E3FA3 /* libPods-sandbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410F1C691FF608648F0E1E7E /* libPods-sandbox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3520B9F22120ACEF00BC21B2 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		3520B9F32120ACF000BC21B2 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
+		3520B9FA2120CE8700BC21B2 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		355DB4AF211F9C4200E845AD /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		355DB4B0211F9C4300E845AD /* CountryChoose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryChoose.swift; sourceTree = "<group>"; };
 		3575300E211F18B00061C031 /* sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35753011211F18B00061C031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35753013211F18B00061C031 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		35753015211F18B00061C031 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		35753018211F18B00061C031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3575301A211F18B10061C031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3575301D211F18B10061C031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3575301F211F18B10061C031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35753025211F18F40061C031 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35753026211F18F50061C031 /* NativeAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdViewController.swift; sourceTree = "<group>"; };
+		35753027211F18F50061C031 /* RewardedVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardedVideoViewController.swift; sourceTree = "<group>"; };
+		35753028211F18F50061C031 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		3575302D211F19000061C031 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		357BB95B211FA0A800E49C15 /* NativeAdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdTableViewCell.swift; sourceTree = "<group>"; };
+		357BB95C211FA0A800E49C15 /* NativeAdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAdTableViewCell.xib; sourceTree = "<group>"; };
+		410F1C691FF608648F0E1E7E /* libPods-sandbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sandbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF66C0C69B2C3116E1DB144 /* Pods-sandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sandbox/Pods-sandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		E54B19A84F9CC0E5D7FC60AD /* Pods-sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-sandbox/Pods-sandbox.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497B012A45B7865CD55E3FA3 /* libPods-sandbox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3520B9FC2120CEBB00BC21B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3520B9FA2120CE8700BC21B2 /* RoundButton.swift */,
+			);
+			name = Extensions;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		355DB4A0211F945300E845AD /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				35753028211F18F50061C031 /* BannerViewController.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		355DB4A1211F946000E845AD /* NativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				3520B9F22120ACEF00BC21B2 /* CountryTableViewCell.swift */,
+				3520B9F32120ACF000BC21B2 /* CountryTableViewCell.xib */,
+				35753026211F18F50061C031 /* NativeAdViewController.swift */,
+				357BB95B211FA0A800E49C15 /* NativeAdTableViewCell.swift */,
+				357BB95C211FA0A800E49C15 /* NativeAdTableViewCell.xib */,
+			);
+			path = NativeAd;
+			sourceTree = "<group>";
+		};
+		355DB4A2211F946D00E845AD /* RewardedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				35753027211F18F50061C031 /* RewardedVideoViewController.swift */,
+			);
+			path = RewardedVideo;
+			sourceTree = "<group>";
+		};
+		355DB4A3211F948B00E845AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				355DB4A0211F945300E845AD /* Banner */,
+				355DB4A1211F946000E845AD /* NativeAd */,
+				355DB4A2211F946D00E845AD /* RewardedVideo */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		355DB4A4211F94A000E845AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3575302D211F19000061C031 /* Main.storyboard */,
+				3575301C211F18B10061C031 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		355DB4AB211F9BA700E845AD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				35753025211F18F40061C031 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		355DB4AD211F9BCA00E845AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3575301F211F18B10061C031 /* Info.plist */,
+				3575301A211F18B10061C031 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		355DB4AE211F9C2500E845AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				355DB4AF211F9C4200E845AD /* Countries.plist */,
+				355DB4B0211F9C4300E845AD /* CountryChoose.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		35753005211F18B00061C031 = {
 			isa = PBXGroup;
 			children = (
 				35753010211F18B00061C031 /* sandbox */,
 				3575300F211F18B00061C031 /* Products */,
+				63FD9E6E8C20C0B8427739AF /* Pods */,
+				DED83F320CD4A838E6E013EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +161,31 @@
 		35753010211F18B00061C031 /* sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				35753011211F18B00061C031 /* AppDelegate.swift */,
-				35753013211F18B00061C031 /* FirstViewController.swift */,
-				35753015211F18B00061C031 /* SecondViewController.swift */,
-				35753017211F18B00061C031 /* Main.storyboard */,
-				3575301A211F18B10061C031 /* Assets.xcassets */,
-				3575301C211F18B10061C031 /* LaunchScreen.storyboard */,
-				3575301F211F18B10061C031 /* Info.plist */,
+				3520B9FC2120CEBB00BC21B2 /* Extensions */,
+				355DB4AB211F9BA700E845AD /* AppDelegate */,
+				355DB4A3211F948B00E845AD /* Controllers */,
+				355DB4AE211F9C2500E845AD /* Models */,
+				355DB4AD211F9BCA00E845AD /* Resources */,
+				355DB4A4211F94A000E845AD /* Views */,
 			);
 			path = sandbox;
+			sourceTree = "<group>";
+		};
+		63FD9E6E8C20C0B8427739AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF66C0C69B2C3116E1DB144 /* Pods-sandbox.debug.xcconfig */,
+				E54B19A84F9CC0E5D7FC60AD /* Pods-sandbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DED83F320CD4A838E6E013EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410F1C691FF608648F0E1E7E /* libPods-sandbox.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35753022211F18B10061C031 /* Build configuration list for PBXNativeTarget "sandbox" */;
 			buildPhases = (
+				2D239106F0745D06EF5D6365 /* [CP] Check Pods Manifest.lock */,
 				3575300A211F18B00061C031 /* Sources */,
 				3575300B211F18B00061C031 /* Frameworks */,
 				3575300C211F18B00061C031 /* Resources */,
+				D55791731DAE98F9E849E9C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +222,7 @@
 				TargetAttributes = {
 					3575300D211F18B00061C031 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -125,36 +249,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3520B9F52120ACF000BC21B2 /* CountryTableViewCell.xib in Resources */,
+				3575302E211F19000061C031 /* Main.storyboard in Resources */,
+				355DB4B1211F9C4400E845AD /* Countries.plist in Resources */,
 				3575301E211F18B10061C031 /* LaunchScreen.storyboard in Resources */,
 				3575301B211F18B10061C031 /* Assets.xcassets in Resources */,
-				35753019211F18B00061C031 /* Main.storyboard in Resources */,
+				357BB95E211FA0A800E49C15 /* NativeAdTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D239106F0745D06EF5D6365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sandbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55791731DAE98F9E849E9C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sandbox/Pods-sandbox-resources.sh",
+				"${PODS_ROOT}/Appodeal/Appodeal.bundle",
+				"${PODS_ROOT}/Appodeal/APDStartAppAdapter.embeddedframework/Resources/StartApp.bundle",
+				"${PODS_ROOT}/Appodeal/APDTapjoyAdapter.embeddedframework/Resources/TapjoyResources.bundle",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPAdBrowserController.xib",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPCloseBtn.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPCloseBtn@2x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPCloseBtn@3x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPCloseButtonX.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPCloseButtonX@2x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPCloseButtonX@3x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPDAAIcon.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPDAAIcon@2x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPDAAIcon@3x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPMutedBtn.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPMutedBtn@2x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPMutedBtn@3x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPPlayBtn.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPPlayBtn@2x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPPlayBtn@3x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPUnmutedBtn.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPUnmutedBtn@2x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MPUnmutedBtn@3x.png",
+				"${PODS_ROOT}/Appodeal/APDTwitterMoPubAdapter.embeddedframework/Resources/MRAID.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Appodeal.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StartApp.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TapjoyResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPAdBrowserController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButtonX.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButtonX@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButtonX@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDAAIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDAAIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDAAIcon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPMutedBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPMutedBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPMutedBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPPlayBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPPlayBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPPlayBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPUnmutedBtn.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPUnmutedBtn@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPUnmutedBtn@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MRAID.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sandbox/Pods-sandbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3575300A211F18B00061C031 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35753016211F18B00061C031 /* SecondViewController.swift in Sources */,
-				35753012211F18B00061C031 /* AppDelegate.swift in Sources */,
-				35753014211F18B00061C031 /* FirstViewController.swift in Sources */,
+				3520B9FB2120CE8800BC21B2 /* RoundButton.swift in Sources */,
+				3520B9F42120ACF000BC21B2 /* CountryTableViewCell.swift in Sources */,
+				3575302A211F18F50061C031 /* NativeAdViewController.swift in Sources */,
+				3575302B211F18F50061C031 /* RewardedVideoViewController.swift in Sources */,
+				355DB4B2211F9C4400E845AD /* CountryChoose.swift in Sources */,
+				357BB95D211FA0A800E49C15 /* NativeAdTableViewCell.swift in Sources */,
+				3575302C211F18F50061C031 /* BannerViewController.swift in Sources */,
+				35753029211F18F50061C031 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35753017211F18B00061C031 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35753018211F18B00061C031 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3575301C211F18B10061C031 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,17 +489,20 @@
 		};
 		35753023211F18B10061C031 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF66C0C69B2C3116E1DB144 /* Pods-sandbox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2L7UE9LKB;
-				INFOPLIST_FILE = sandbox/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/sandbox/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,11 +510,13 @@
 		};
 		35753024211F18B10061C031 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54B19A84F9CC0E5D7FC60AD /* Pods-sandbox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2L7UE9LKB;
-				INFOPLIST_FILE = sandbox/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/sandbox/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

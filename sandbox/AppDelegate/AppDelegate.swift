@@ -7,15 +7,28 @@
 //
 
 import UIKit
+import Appodeal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let adTypes: AppodealAdType = [.banner, .rewardedVideo, .nativeAd]
+    
+    //AppKey for com.poulkravtsoff.sandbox
+//    let appKey = "058b55ddb57d33498273cb7f9929f166c0b2afc1676ffb83"
+    //AppKey for com.appodeal.bundle
+//    let appKey = "750c9244ff90b78a617d3e0effbf7e64ab036c4317be8f38"
+    //Appkey for com.appodeal.test
+//    let appKey = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f"
+    //AppKey com.appodeal.sandbox
+    let appKey = "dee74c5129f53fc629a44a690a02296694e3eef99f2d3a5f"
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Appodeal.setAutocache(true, types: adTypes)
+        Appodeal.initialize(withApiKey: appKey, types:  adTypes)
         return true
     }
 
